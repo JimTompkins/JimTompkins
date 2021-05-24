@@ -19,6 +19,7 @@ feature_row:
   - image_path: /assets/images/AppScreenshot1.jpg
     alt: "iOS and Android apps"
     title: "iOS and Android Apps"
+    height: 200
     excerpt: "Simple app for iOS and Android phones and tablets."
     url: /app-tour/
     btn_class: "btn--primary"
