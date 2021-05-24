@@ -12,6 +12,8 @@ gallery:
 
 ## Home Screen
 
+![image-left](/assets/images/AppScreenshot1.jpg){: .align-left width="250" }
+
 1. Press the Bluetooth connect icon to scan for nearby HappyFeet, and connect.
 2. Select the play mode.  The choices are:
    1. Single note mode: the simplest mode.  In this mode, each time a beat is detected
@@ -27,6 +29,22 @@ gallery:
 
 ## Groove Screen
 
+![image-left](/assets/images/AppScreenshot2.jpg){: .align-left width="250" }
+
+1. Set the number of beats per measure by dragging the slider.
+2. Set the number of measures in the groove by dragging the slider.
+3. Choose individual notes for each beat in the groove using the dropdown buttons.  The choices are:
+   
+   + B = bass drum
+   
+   + K = kick drum
+   
+   + S = snare drum
+   
+   + H = high hat cymbal
+   
+   + C = cowbell
+   
 ## More Menu
 
 
