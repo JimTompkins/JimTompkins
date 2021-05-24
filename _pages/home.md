@@ -49,7 +49,7 @@ phone/tablet itself.
 User's Guide
 ------------
 
-<embed src="https://jimtompkins.github.io/assets/UsersGuide.pdf" type="application/pdf"/>
+<embed src="https://jimtompkins.github.io/JimTompkins/assets/UsersGuide.pdf" type="application/pdf"/>
 
 
 Here is a video:
@@ -107,3 +107,4 @@ App Download
 ------------
 
 Android: [download app](https://jimtompkins.github.io/assets/happy_feet_app.apk) here.
+iOS: coming soon
