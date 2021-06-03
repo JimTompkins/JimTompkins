@@ -44,8 +44,25 @@ gallery:
    + H = high hat cymbal
    
    + C = cowbell
-   
-## More Menu
 
+## Bass screen
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+![image-left](/assets/images/AppScreenshot3.jpg){: .align-left width="250" }
+
+Bass mode lets you define a bass groove where the notes played on each beat are
+bass note samples from a 1974 maple-neck Fender Jazz bass.
+
+1. Set the number of beats per measure by dragging the slider.
+2. Set the number of measures in the groove by dragging the slider.
+3. Choose the key of your song.
+3. Choose individual notes for each beat in the groove using the dropdown buttons.  The choices are 
+from scale tones I through VII.  For example, in the key of C, the scale tones are as follows:
+
+   + I = C
+   + II = D
+   + III = E
+   + IV = F
+   + V = G
+   + VI = A
+   + VII = B
+

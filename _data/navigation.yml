@@ -1,11 +1,13 @@
 # main links
 main:
   - title: "About"
-    url: /_pages/about/
+    url: /_pages/about
+  - title: "Blog"
+    url: /_pages/blog
   - title: "Gallery"
     url: /_pages/gallery/
   - title: "Videos"
-    url: /_pages/video/
+    url: /_pages/videos/
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"

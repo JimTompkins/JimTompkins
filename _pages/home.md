@@ -13,9 +13,10 @@ feature_row:
     alt: "small size"
     title: "Fits on your foot"
     excerpt: "Small size means you'll forget you're wearing it and there are no wires to worry about when playing.  Wrap the elastic strap around your foot and secure it with the Velcro."
-    url: /product-photos/
+    url: /_pages/product-photos/
     btn_class: "btn--primary"
     btn_label: "Product Photos"
+    
   - image_path: /assets/images/AppScreenshot1.jpg
     alt: "iOS and Android apps"
     title: "iOS and Android Apps"
@@ -28,9 +29,11 @@ gallery2:
   - url: https://photos.app.goo.gl/Q8DSDPJBLEbFnAye8
     image_path: https://photos.app.goo.gl/Q8DSDPJBLEbFnAye8
     alt: "Happy Feet with quarter"
+    
   - url: https://flic.kr/p/8a738X
     image_path: https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg
     alt: "Made for open text placement"
+    
   - url: https://flic.kr/p/8a6VXP
     image_path: https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg
     alt: "Fog in the trees"
@@ -53,9 +56,8 @@ User's Guide
 <embed src="https://jimtompkins.github.io/JimTompkins/assets/UsersGuide.pdf" type="application/pdf"/>
 
 
-Here is a video:
-
-{% include video id="XsxDH4HcOWA" provider="youtube" %}
+Mailing List
+------------
 
 Please subscribe to our mailing list for updates.  We won't share your address and you can
 un-subscribe at any time.
@@ -107,5 +109,7 @@ un-subscribe at any time.
 App Download
 ------------
 
-Android: [download app](https://jimtompkins.github.io/assets/happy_feet_app.apk) here.
+Android: we are currently doing alpha testing with internal testers.  If you are on the internal tester list, you can 
+[download the app](https://play.google.com/apps/internaltest/4700218685147431789) to your Android phone or tablet.
+
 iOS: coming soon
