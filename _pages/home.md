@@ -22,9 +22,19 @@ feature_row:
     title: "iOS and Android Apps"
     height: 200
     excerpt: "Simple app for iOS and Android phones and tablets."
-    url: /app-tour/
+    url: /_pages/app-tour/
     btn_class: "btn--primary"
     btn_label: "App Features"
+    
+  - image_path: /assets/images/GitHub-Mark-Light-120px-plus.png
+    alt: "Open source code"
+    title: "Open source code"
+    height: 200
+    excerpt: "Open source code for app, embedded software and hardware."
+    url: /_pages/open-source/
+    btn_class: "btn--primary"
+    btn_label: "Open Source"
+    
 gallery2:
   - url: https://photos.app.goo.gl/Q8DSDPJBLEbFnAye8
     image_path: https://photos.app.goo.gl/Q8DSDPJBLEbFnAye8
@@ -110,6 +120,6 @@ App Download
 ------------
 
 Android: we are currently doing alpha testing with internal testers.  If you are on the internal tester list, you can 
-[download the app](https://play.google.com/apps/internaltest/4700218685147431789) to your Android phone or tablet.
+[click here](https://play.google.com/apps/internaltest/4700218685147431789) from your Android phone or tablet to download the app.
 
 iOS: coming soon

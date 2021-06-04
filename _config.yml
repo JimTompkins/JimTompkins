@@ -19,8 +19,8 @@ locale                   : "en-US"
 title                    : #"Happy Feet Music"
 title_separator          : #"-"
 subtitle                 : #"A foot-mounted Bluetooth-enabled drum-machine-thingy"
-name                     : #"Jim Tompkins"
-description              : #"founder of HF-M"
+name                     : "Jim Tompkins"
+description              : "gaffer at HF-M"
 url                      : www.happyfeet-music.om
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,10 +94,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Jim Tompkins"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "gaffer at HF-M"
+  location         : "Halifax, Canada"
   email            :
   links:
     - label: "Email"
