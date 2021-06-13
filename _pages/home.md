@@ -9,7 +9,7 @@ header:
 excerpt: >
   Happy Feet Music
 feature_row:
-  - image_path: /assets/images/HFwQuarterC.jpg
+  - image_path: /assets/images/HFonshoe.jpg
     alt: "small size"
     title: "Fits on your foot"
     excerpt: "Small size means you'll forget you're wearing it and there are no wires to worry about when playing.  Wrap the elastic strap around your foot and secure it with the Velcro."
@@ -30,7 +30,7 @@ feature_row:
     alt: "Open source code"
     title: "Open source code"
     height: 200
-    excerpt: "Open source code for app, embedded software and hardware."
+    excerpt: "Open source app, embedded software and hardware."
     url: /_pages/open-source/
     btn_class: "btn--primary"
     btn_label: "Open Source"
@@ -52,9 +52,11 @@ gallery2:
 Happy Feet
 ----------
 
-Happy Feet is a foot-mounted, Bluetooth-enabled drum-machine-thingy accompaniement widget.  
-It plays a note when you tap your foot so you can accompany
-yourself while playing guitar, piano, violin, ... anything really.  You configure it with a simple app on your phone or tablet, 
+Happy Feet is a foot-mounted, Bluetooth-enabled synthesizer/drum-machine-thingy.  
+Each tap of your foot makes the sound of a percussion instrument.  You can choose bass drum, kick drum, snare drum, high hat
+cymbal, tambourine or cow bell (the world needs more cowbell!).  Or, in bass mode, you can play bass guitar notes from the key you select.  
+You can accompany yourself while playing guitar, piano, violin, ukulele, bohdran... anything really.  
+You configure it with a simple app on your phone or tablet, 
 and the phone or tablet produces the audio which you can play over a speaker connected with a 3.5mm cable, Bluetooth or even the
 phone/tablet itself.
 

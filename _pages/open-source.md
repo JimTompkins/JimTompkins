@@ -9,9 +9,10 @@ The development of HappyFeet has only been possible with the use of open source 
 everything from tools used for hardware development ([KiCad](https://www.kicad.org), 
 [FreeCAD](https://www.freecadweb.org)) 
 to software packages ([flutter_blue](https://pub.dev/packages/flutter_blue), 
-[flutter_midi](https://pub.dev/packages/flutter_midi)).  
+[flutter_midi](https://pub.dev/packages/flutter_midi)) to 
+[soundfonts](https://www.polyphone-soundfonts.com/).
 So, we've stood on the shoulders of giants!  Now, it's our turn to give back.  We look forward
-to contributions from the user community.
+to suggestions/contributions from the user community.
 
 ## App
 
