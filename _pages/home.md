@@ -9,7 +9,7 @@ header:
 excerpt: >
   Happy Feet Music
 feature_row:
-  - image_path: /assets/images/HFonshoe.jpg
+  - image_path: /assets/images/HFonShoe.jpg
     alt: "small size"
     title: "Fits on your foot"
     excerpt: "Small size means you'll forget you're wearing it and there are no wires to worry about when playing.  Wrap the elastic strap around your foot and secure it with the Velcro."

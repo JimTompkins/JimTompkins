@@ -80,9 +80,10 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Organization
+  name                   : "Happy Feet Music"
   links: # An array of links to social media profiles
+  - "https://instagram.com/happyfeet_music"
 
 # Analytics
 analytics:
@@ -117,7 +118,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/happyfeet_music"
 
 # Site Footer
 footer:
@@ -130,7 +131,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "http://instagram.com/happyfeet_music"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
