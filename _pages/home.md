@@ -57,7 +57,7 @@ Each tap of your foot makes the sound of a percussion instrument.  You can choos
 cymbal, tambourine or cow bell (the world needs more cowbell!).  Or, in bass mode, you can play bass guitar notes from the key you select.  
 You can accompany yourself while playing guitar, piano, violin, ukulele, bohdran... anything really.  
 You configure it with a simple app on your phone or tablet, 
-and the phone or tablet produces the audio which you can play over a speaker connected with a 3.5mm cable, Bluetooth or even the
+and the phone or tablet produces the audio which you can play over a speaker or amp connected with a 3.5mm cable or even the
 phone/tablet itself.
 
 {% include feature_row %}

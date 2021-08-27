@@ -8,8 +8,8 @@ permalink: /_pages/open-source/
 The development of HappyFeet has only been possible with the use of open source software, including
 everything from tools used for hardware development ([KiCad](https://www.kicad.org), 
 [FreeCAD](https://www.freecadweb.org)) 
-to software packages ([flutter_blue](https://pub.dev/packages/flutter_blue), 
-[flutter_midi](https://pub.dev/packages/flutter_midi)) to 
+to software packages ([flutter_reactive_ble](https://pub.dev/packages/flutter_reactive_ble), 
+[flutter_ogg_piano](https://pub.dev/packages/flutter_ogg_piano)) to 
 [soundfonts](https://www.polyphone-soundfonts.com/).
 So, we've stood on the shoulders of giants!  Now, it's our turn to give back.  We look forward
 to suggestions/contributions from the user community.
@@ -17,7 +17,7 @@ to suggestions/contributions from the user community.
 ## App
 
 The HappyFeet app is developed in [Flutter](https://flutter.dev), a cross-platform app development
-environment, and the repo is [here].
+environment from Google, and the repo is [here](https://github.com/JimTompkins/happy_feet_app).
 
 ## Embedded Software
 
