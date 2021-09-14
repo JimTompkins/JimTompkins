@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="www.happyfeet-music.om/feed.xml" rel="self" type="application/atom+xml" /><link href="www.happyfeet-music.om/" rel="alternate" type="text/html" /><updated>2021-08-27T17:44:23-03:00</updated><id>www.happyfeet-music.om/feed.xml</id><title type="html">Jim Tompkins</title><subtitle>gaffer at HF-M</subtitle><author><name>Jim Tompkins</name></author><entry><title type="html">Audio Samples</title><link href="www.happyfeet-music.om/_posts/2021-08-27-audio-samples/" rel="alternate" type="text/html" title="Audio Samples" /><published>2021-08-27T00:00:00-03:00</published><updated>2021-08-27T00:00:00-03:00</updated><id>www.happyfeet-music.om/_posts/audio-samples</id><content type="html" xml:base="www.happyfeet-music.om/_posts/2021-08-27-audio-samples/">&lt;p&gt;The audio samples used by HappyFeet reside totally within the app; the hardware only 
+sends a short message saying that a foot tap was detected.  The audio samples come from 
+the &lt;a href=&quot;https://www.polyphone-soundfonts.com&quot;&gt;Polyphone&lt;/a&gt; website 
+which has a library of soundfont files including these which we’ve used:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Monsoon’s Maple Neck 1974 Fender Jazz Bass by Carl L Garthwaite&lt;/li&gt;
+  &lt;li&gt;latin_hand_perc by  E-mu Sound Central&lt;/li&gt;
+  &lt;li&gt;acoust_kits_1-4 by E-mu Sound Central&lt;/li&gt;
+  &lt;li&gt;Finger_Snaps by JustLetMeDownloadDamnit&lt;/li&gt;
+  &lt;li&gt;Woodblocks by Andrea Sumerauer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks are due to the Polyphone community for providing these high quality audio samples!&lt;/p&gt;
+
+&lt;p&gt;The samples are processed as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;save as .wav using Polyphone&lt;/li&gt;
+  &lt;li&gt;convert to .ogg using Audacity&lt;/li&gt;
+  &lt;li&gt;imported as assets to Flutter&lt;/li&gt;
+  &lt;li&gt;load and play using the Flutter package flutter_ogg_piano&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cowbell.png&quot; alt=&quot;cowbell&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A future wishlist item for the app might be to allow users to load their own .ogg audio samples, and use them in their own grooves.&lt;br /&gt;
+Let’s see if there is demand for something like this.&lt;/p&gt;</content><author><name>Jim Tompkins</name></author><summary type="html">The audio samples used by HappyFeet reside totally within the app; the hardware only sends a short message saying that a foot tap was detected. The audio samples come from the Polyphone website which has a library of soundfont files including these which we’ve used:</summary></entry><entry><title type="html">What’s all this latency stuff, anyhow?</title><link href="www.happyfeet-music.om/_posts/2021-07-20-latency/" rel="alternate" type="text/html" title="What’s all this latency stuff, anyhow?" /><published>2021-07-20T00:00:00-03:00</published><updated>2021-07-20T00:00:00-03:00</updated><id>www.happyfeet-music.om/_posts/latency</id><content type="html" xml:base="www.happyfeet-music.om/_posts/2021-07-20-latency/">&lt;p&gt;With a nod to Bob Pease (legendary analog circuit designer), today’s post looks at the
+latency from foot-tap to sound.  Sound travels at 1400m/s or 1.4m/ms, so each ms of latency (aka delay), 
+equates to the sound coming from 1m away.  I’ve read some posts (such as this one)&lt;a href=&quot;https://calebdolister.medium.com/why-cant-musicians-jam-with-each-other-online-without-latency-or-other-issues-44260789a721&quot;&gt;link&lt;/a&gt;
+related to on-line jamming
+that say that latency effects become objectionable at 20-30ms.&lt;/p&gt;
+
+&lt;p&gt;I measured latency by making a sound recording and measuring the time between the sound of the foot tap and
+the sound played by the app.
+&lt;img src=&quot;/assets/images/latency1.png&quot; alt=&quot;recording&quot; /&gt;
+The first result was 250ms from the Android version of the app running on a Samsung Galaxy S7 phone.  Yikes!  Totally unacceptable!&lt;/p&gt;
+
+&lt;p&gt;Apparently Android’s audio latency is a well known problem.  See &lt;a href=&quot;https://android-developers.googleblog.com/2021/03/an-update-on-androids-audio-latency.html&quot;&gt;link&lt;/a&gt;
+for a good exploration of audio latency in Android, including a timeline of how it’s improved over time.&lt;/p&gt;
+
+&lt;p&gt;This version used the flutter_midi package as the sound engine.  I also tried audioplayers/audiocache and soundpool packages
+with only slightly better results.  Finally, I settled on the flutter_ogg_piano package which achieves low latency by being “close”
+to the underlying audio engine in Android using Oboe.  I measured the average latency with the same Samsung S7 of 19.75ms 
+with a min of 10ms and a max of 30ms.
+&lt;img src=&quot;/assets/images/latency2.png&quot; alt=&quot;improved recording&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/latency3.png&quot; alt=&quot;plot of latency results&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When these measurements were repeated on a Samsung Galaxy Tab A(2016) the results were quite a bit worse: 
+mean of 95ms, min of 65ms and max of 134ms.  Clearly, older Android devices are a problem!&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for results from the iOS version.&lt;/p&gt;</content><author><name>Jim Tompkins</name></author><summary type="html">With a nod to Bob Pease (legendary analog circuit designer), today’s post looks at the latency from foot-tap to sound. Sound travels at 1400m/s or 1.4m/ms, so each ms of latency (aka delay), equates to the sound coming from 1m away. I’ve read some posts (such as this one)link related to on-line jamming that say that latency effects become objectionable at 20-30ms.</summary></entry><entry><title type="html">Start of alpha test</title><link href="www.happyfeet-music.om/_posts/2021-06-02-first-blog-entry/" rel="alternate" type="text/html" title="Start of alpha test" /><published>2021-06-02T00:00:00-03:00</published><updated>2021-06-02T00:00:00-03:00</updated><id>www.happyfeet-music.om/_posts/first-blog-entry</id><content type="html" xml:base="www.happyfeet-music.om/_posts/2021-06-02-first-blog-entry/">&lt;p&gt;The Android alpha test started today with a first sample delivered to a local tester: a friend, colleague and mentor
+who also consulted on the RF design of the discrete version.  He plays piano and digeridoo so I’m looking
+forward to some interesting videos.&lt;/p&gt;</content><author><name>Jim Tompkins</name></author><summary type="html">The Android alpha test started today with a first sample delivered to a local tester: a friend, colleague and mentor who also consulted on the RF design of the discrete version. He plays piano and digeridoo so I’m looking forward to some interesting videos.</summary></entry></feed>
